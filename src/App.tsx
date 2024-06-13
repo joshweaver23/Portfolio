@@ -1,7 +1,21 @@
 import './App.css'
+import AboutHeader from './components/AboutHeader'
+import AboutMe from './components/AboutMe'
+import Experience from './components/Experience'
+import Navigation from './components/Navigation'
+import Recommendations from './components/Recommendations'
 
 function App() {
-  return <h1 className="text-3xl text-center">Hello world!</h1>
+  return (
+    <div className="App space-y-12">
+      <Navigation />
+      <AboutHeader />
+      <AboutMe />
+      <Experience />
+      <Recommendations />
+      {/* <Links /> LinkedIn, GitHub, Contact, etc. */}
+    </div>
+  )
 }
 
 export default App
