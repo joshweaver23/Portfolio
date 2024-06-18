@@ -29,7 +29,7 @@ const CoworkerRecommendations = [
 
 function Recommendations() {
   return (
-    <div className="grid grid-cols-4 gap-4" id="recommendations">
+    <div className="grid grid-cols-4 gap-4 pt-14" id="recommendations">
       <h1 className="col-span-1 text-left font-bold">From Former Coworkers</h1>
       <div className="col-span-3 text-left space-y-4">
         {CoworkerRecommendations.map(

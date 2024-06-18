@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-4 gap-4 pt-14">
       <h1 className="col-span-1 text-left font-bold">Who I Am</h1>
       <div className="col-span-3 text-left space-y-4">
         <p>

@@ -1,7 +1,7 @@
 const ExperienceList = [
   {
     title: 'Senior Software Engineer',
-    company: 'Vacasa',
+    company: 'Vacasa (Remote)',
     date: 'Jun 2022 - Jun 2024',
     technologies: [
       'TypeScript',
@@ -19,7 +19,7 @@ const ExperienceList = [
   },
   {
     title: 'Software Engineer',
-    company: 'Second Front Systems',
+    company: 'Second Front Systems (Remote)',
     date: 'Sep 2020 - May 2022',
     technologies: ['TypeScript', 'React', 'Redux', 'GoLang', 'MySql', 'AWS'],
     description: [
@@ -29,7 +29,7 @@ const ExperienceList = [
   },
   {
     title: 'Software Engineer',
-    company: 'ATLATL Software (Now Dopple)',
+    company: 'ATLATL Software (Remote)',
     date: 'Oct 2019 - Sep 2020',
     technologies: [
       'Node.js',
@@ -78,7 +78,7 @@ const ExperienceList = [
 
 function Experience() {
   return (
-    <div className="grid grid-cols-4 gap-4" id="experience">
+    <div className="grid grid-cols-4 gap-4 pt-14" id="experience">
       <h2 className="col-span-1 text-left font-bold">What I&apos;ve Done</h2>
       <div className="col-span-3 space-y-4 text-left">
         {ExperienceList.map(

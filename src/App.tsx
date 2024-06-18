@@ -7,7 +7,7 @@ import Recommendations from './components/Recommendations'
 
 function App() {
   return (
-    <div className="App space-y-12">
+    <div className="App">
       <Navigation />
       <AboutHeader />
       <AboutMe />
