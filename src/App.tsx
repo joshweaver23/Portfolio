@@ -2,6 +2,7 @@ import './App.css'
 import AboutHeader from './components/AboutHeader'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
+import Links from './components/Links'
 import Navigation from './components/Navigation'
 import Recommendations from './components/Recommendations'
 
@@ -13,7 +14,7 @@ function App() {
       <AboutMe />
       <Experience />
       <Recommendations />
-      {/* <Links /> LinkedIn, GitHub, Contact, etc. */}
+      <Links />
     </div>
   )
 }

@@ -30,8 +30,10 @@ const CoworkerRecommendations = [
 function Recommendations() {
   return (
     <div className="grid grid-cols-4 gap-4 pt-14" id="recommendations">
-      <h1 className="col-span-1 text-left font-bold">From Former Coworkers</h1>
-      <div className="col-span-3 text-left space-y-4">
+      <h1 className="md:col-span-1 col-span-4 text-left font-bold">
+        From Former Coworkers
+      </h1>
+      <div className="md:col-span-3 col-span-4 text-left space-y-4">
         {CoworkerRecommendations.map(
           ({ name, title, company, recommendation }) => (
             <div key={name} className="col-span-4 space-y-2">

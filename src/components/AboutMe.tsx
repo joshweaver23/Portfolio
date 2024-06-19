@@ -1,8 +1,8 @@
 function AboutMe() {
   return (
     <div className="grid grid-cols-4 gap-4 pt-14">
-      <h1 className="col-span-1 text-left font-bold">Who I Am</h1>
-      <div className="col-span-3 text-left space-y-4">
+      <h1 className="md:col-span-1 col-span-4 text-left font-bold">Who I Am</h1>
+      <div className="md:col-span-3 col-span-4 text-left space-y-4">
         <p>
           I am an innovative and experienced Senior Software Engineer with a
           robust background in developing scalable and efficient software

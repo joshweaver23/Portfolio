@@ -79,8 +79,10 @@ const ExperienceList = [
 function Experience() {
   return (
     <div className="grid grid-cols-4 gap-4 pt-14" id="experience">
-      <h2 className="col-span-1 text-left font-bold">What I&apos;ve Done</h2>
-      <div className="col-span-3 space-y-4 text-left">
+      <h2 className="md:col-span-1 col-span-4 text-left font-bold">
+        What I&apos;ve Done
+      </h2>
+      <div className="md:col-span-3 col-span-4 space-y-4 text-left">
         {ExperienceList.map(
           ({ company, title, date, technologies, description }) => (
             <div key={company} className="col-span-4 space-y-2">
